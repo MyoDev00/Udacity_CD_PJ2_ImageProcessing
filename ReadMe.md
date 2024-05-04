@@ -1,6 +1,6 @@
 ## API EndPoint
 
-http://www.api.com/filteredimage?image_url={{URL}}
+http://image-processing-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url={{URL}}
 
 Replace `{{URL}}` with the URL of the image you want to filter.
 
@@ -20,5 +20,5 @@ The API will return the filtered image in the response.
 ## Example
 
 ```bash
-GET http://example.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpgs
+GET http://image-processing-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpgs
 ```
